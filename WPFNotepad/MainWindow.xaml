@@ -36,7 +36,7 @@
                        Text="{Binding FilePath}"/>
 
             <TextBox DockPanel.Dock="Top"
-                       VerticalScrollBarVisibility="Visible"
+                     VerticalScrollBarVisibility="Visible"
                      DataContext="{Binding Editor}"
                      FontFamily="{Binding Format.Family}"
                      FontSize="{Binding Format.Size}"
